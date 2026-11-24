@@ -13,7 +13,7 @@ export default function StalwartsWheel() {
 
   const colors = [
     '#10b981', '#f59e0b', '#f43f5e', '#f97316', 
-    '#06b6d4', '#84cc16', '#a855f7', '#22c55e', '#eab308'
+    '#06b6d4', '#84cc16', '#a855f7', '#22c55e', '#ef4444', '#eab308'
   ];
 
   const totalSlices = STALWARTS.length;

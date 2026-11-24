@@ -60,7 +60,7 @@ export default function Navbar({ isHostelMode, setIsHostelMode, bgmActive, setBg
               className="text-xs font-bold text-slate-300 hover:text-white transition-colors flex items-center gap-1.5"
             >
               <Award className="w-3.5 h-3.5 text-teal-400" />
-              The 9 Stalwarts
+              The 10 Stalwarts
             </a>
             <a 
               href="#dialogues" 
@@ -172,7 +172,7 @@ export default function Navbar({ isHostelMode, setIsHostelMode, bgmActive, setBg
               onClick={() => { sounds.playPop(); setMobileMenuOpen(false); }}
               className="block px-3 py-2 rounded-lg text-slate-300 hover:bg-slate-900 font-medium text-sm"
             >
-              🩺 The 9 Stalwarts
+              🩺 The 10 Stalwarts
             </a>
             <a 
               href="#dialogues" 

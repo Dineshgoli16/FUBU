@@ -372,8 +372,8 @@ export const STALWARTS = [
     qualifications: "MBBS, MS / DNB (Orthopedics)",
     hospital: "Railway Hospital, West Central Railway (WCR)",
     location: "Jabalpur, Madhya Pradesh",
-    avatar: "./photos/reunions/doctor_clinic_stethoscope.jpg",
-    funAvatar: "./photos/reunions/college_flag_day.jpg",
+    avatar: "./photos/doctors/amar.jpeg",
+    funAvatar: "./photos/reunions/doctor_clinic_stethoscope.jpg",
     theme: {
       color: "yellow",
       primaryText: "text-yellow-500",
@@ -406,6 +406,50 @@ export const STALWARTS = [
       { label: "Reunion Fly-Ins", value: 96 }
     ],
     tags: ["Indian Railways", "Jabalpur", "Orthopedics", "WCR"]
+  },
+  {
+    id: "chandrasekhar",
+    name: "Dr. Chandra Sekhar",
+    nickname: "Chandanna",
+    roleClinical: "Consultant Anaesthesiologist & Managing Partner",
+    roleHostel: "The Angry Young Man & Firebrand Stalwart",
+    qualifications: "MBBS, MD / DA (Anaesthesiology)",
+    hospital: "Sri Sowjanya Hospitals (24/7 Emergency & Cardiac Care)",
+    location: "Parvathipuram, Andhra Pradesh",
+    avatar: "./photos/doctors/chandanna.jpeg",
+    funAvatar: "./photos/reunions/chandanna_reunion_toast.jpg",
+    theme: {
+      color: "red",
+      primaryText: "text-red-400",
+      accentBg: "bg-red-500/20 text-red-300 border-red-500/40",
+      border: "border-red-500/40 hover:border-red-400",
+      gradient: "from-red-600 via-rose-700 to-amber-900",
+      glow: "shadow-red-500/25",
+      ring: "ring-red-400",
+    },
+    clinicalSummary:
+      "Expert Anaesthesiologist and Managing Partner at Sri Sowjanya Hospitals in Parvathipuram. Master of precision spinal and epidural blocks, emergency airway management, and high-risk intraoperative hemodynamic stabilization.",
+    hostelSummary:
+      "The undisputed 'Angry Young Man' of the 2008 Serene Stalwarts! Unfiltered passion, intense gaze, and fierce loyalty to his batchmates. When Chandanna speaks, everyone listens. Beneath the fiery persona beats a heart of gold that will stand through fire for his friends.",
+    superpower: "Sub-Second Spinal Anesthesia & Unshakable Brotherhood Loyalty",
+    hostelBadge: "Angry Young Man Chandanna ⚡",
+    clinicalBadge: "Sri Sowjanya Managing Partner 💉",
+    quote: "Surgery succeeds because we take pain away. In life as in the OT, stay fearless, stand by your brothers, and never back down.",
+    dialogue: "Nannu gelikithe patient ki anesthesia iyyadam marchipotha ani anukuntunnara?! Chandanna ante fire!",
+    dialogueEnglish: "You think if you mess with me I'll forget to give anesthesia?! Chandanna means pure fire!",
+    statsClinical: [
+      { label: "Spinal & Epidural Precision", value: 99 },
+      { label: "Emergency Airway Control", value: 98 },
+      { label: "Hemodynamic Mastery", value: 97 },
+      { label: "Hospital Leadership", value: 96 }
+    ],
+    statsHostel: [
+      { label: "Angry Young Man Intensity", value: 100 },
+      { label: "Fiery Passion", value: 99 },
+      { label: "Pure Loyalty", value: 100 },
+      { label: "Protective Fire", value: 100 }
+    ],
+    tags: ["Anaesthesiologist", "Sri Sowjanya Hospitals", "Parvathipuram", "Managing Partner", "Chandanna"]
   }
 ];
 
@@ -481,6 +525,14 @@ export const HOSTEL_DIALOGUES = [
     english: "From Srikakulam beach to Jabalpur Railway Hospital... what a journey, brother!",
     tag: "Railway Mission",
     icon: "🚂"
+  },
+  {
+    doctor: "Dr. Chandra Sekhar",
+    nickname: "Chandanna",
+    telugu: "Nannu gelikithe patient ki anesthesia iyyadam marchipotha ani anukuntunnara?! Chandanna ante fire!",
+    english: "You think if you mess with me I'll forget to give anesthesia?! Chandanna means pure fire!",
+    tag: "Angry Young Man",
+    icon: "⚡"
   }
 ];
 
@@ -496,6 +548,22 @@ export const WHEEL_PROMPTS = [
 ];
 
 export const VAULT_PHOTOS = [
+  {
+    src: "./photos/reunions/chandanna_reunion_toast.jpg",
+    title: "Sri Sowjanya Hospitals Reunion — Parvathipuram",
+    category: "Reunion",
+    year: "2024",
+    tilt: "-2deg",
+    description: "Dr. Dinesh and the stalwarts visiting Chandanna outside Sri Sowjanya Hospitals. Celebrating partner healthcare leadership!"
+  },
+  {
+    src: "./photos/doctors/satya2.jpeg",
+    title: "Satya's Sub-Surface X-Ray Vision",
+    category: "Hostel Banter",
+    year: "2024",
+    tilt: "2.2deg",
+    description: "Radiologist Satya diving deep with crystal clarity and zero motion artifacts under water!"
+  },
   {
     src: "./photos/reunions/wedding_suits_stalwarts.jpg",
     title: "The Wedding Suits Gala — Dressed to Kill",
@@ -695,8 +763,8 @@ export const ODYSSEY_NODES = [
     name: "RIMS Srikakulam (Origin)",
     coords: { x: 80, y: 35 },
     role: "The Genesis (2008)",
-    description: "Where all 9 met in 2008 as the historic Inaugural 100-student batch 'Serene Stalwarts'.",
-    doctors: "All 9 Stalwarts"
+    description: "Where all 10 met in 2008 as the historic Inaugural 100-student batch 'Serene Stalwarts'.",
+    doctors: "All 10 Stalwarts"
   },
   {
     name: "Visakhapatnam (Vizag Hub)",
@@ -711,6 +779,13 @@ export const ODYSSEY_NODES = [
     role: "Clinical Stronghold",
     description: "Citi Scans & Diagnostics (Dr. Satya) and Dr. K.V. Rama Rao Hospital (Dr. Raviteja).",
     doctors: "Dr. Satya, Dr. Raviteja"
+  },
+  {
+    name: "Parvathipuram (Manyam District)",
+    coords: { x: 82, y: 28 },
+    role: "Critical Anesthesia & Emergency Partner",
+    description: "Sri Sowjanya Hospitals (24/7 Emergency & Cardiac Care), co-owned and managed by partner Dr. Chandra Sekhar (Chandanna).",
+    doctors: "Dr. Chandra Sekhar (Chandanna)"
   },
   {
     name: "Jangareddygudem (Eluru)",
@@ -791,5 +866,12 @@ export const QUIZ_QUESTIONS = [
     options: ["Dr. Raviteja (Gajji / RT)", "Dr. Dinesh", "Dr. Aravind", "Dr. Sandy"],
     correctIndex: 0,
     funFact: "Dr. Raviteja (RT) is the orthopedic pillar of Rama Rao Hospital in Vizianagaram!"
+  },
+  {
+    id: 9,
+    question: "Who is the legendary 'Angry Young Man' and expert Anaesthesiologist running Sri Sowjanya Hospitals in Parvathipuram?",
+    options: ["Dr. Chandra Sekhar (Chandanna)", "Dr. Sandy", "Dr. Satya", "Dr. Timmu"],
+    correctIndex: 0,
+    funFact: "Chandanna is the fiery, passionate protector of the batch and managing partner at Sri Sowjanya Hospitals in Parvathipuram!"
   }
 ];

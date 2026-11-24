@@ -33,7 +33,8 @@ export default function SpotlightShowcase({ isHostelMode, onSelectDoctor }) {
                       activeDoc.theme.color === 'cyan' ? '#06b6d4' :
                       activeDoc.theme.color === 'lime' ? '#84cc16' :
                       activeDoc.theme.color === 'purple' ? '#a855f7' :
-                      activeDoc.theme.color === 'green' ? '#22c55e' : '#eab308'
+                      activeDoc.theme.color === 'green' ? '#22c55e' :
+                      activeDoc.theme.color === 'red' ? '#ef4444' : '#eab308'
         }}
       />
 
@@ -47,7 +48,7 @@ export default function SpotlightShowcase({ isHostelMode, onSelectDoctor }) {
               <span>Interactive Character Stage</span>
             </div>
             <h2 className="text-3xl sm:text-5xl font-black font-display text-white">
-              The 9 Stalwarts Showcase
+              The 10 Stalwarts Showcase
             </h2>
             <p className="text-slate-400 text-sm sm:text-base mt-2 max-w-xl">
               Select any brother to reveal his clinical domain, custom theme aura, and authentic 2008 hostel lore.

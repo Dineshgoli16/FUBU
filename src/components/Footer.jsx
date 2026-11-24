@@ -35,7 +35,7 @@ export default function Footer({ isHostelMode }) {
 
           {/* Quick Doctor Badges */}
           <div className="flex flex-wrap items-center justify-center gap-1.5 max-w-md">
-            {["Potti", "Seshu", "Aru", "Satya", "Gajji", "Sandy", "Amar", "Murali", "Timmu"].map((nick, idx) => (
+            {["Potti", "Seshu", "Aru", "Satya", "Gajji", "Sandy", "Amar", "Murali", "Timmu", "Chandanna"].map((nick, idx) => (
               <span 
                 key={idx}
                 className="px-2.5 py-1 rounded-lg text-[11px] font-bold bg-slate-900 border border-white/5 text-slate-300 font-fun"

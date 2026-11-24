@@ -51,7 +51,7 @@ export default function Hero({ isHostelMode }) {
           <p className="text-base sm:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">
             {isHostelMode ? (
               <span>
-                Before heading Apollo endocrine suites, ICU critical care units, railway hospitals, and surgical empires, we were 9 backbenchers surviving anatomy dissections and eating mess food in Srikakulam.
+                Before heading Apollo endocrine suites, ICU critical care units, railway hospitals, and surgical empires, we were 10 backbenchers surviving anatomy dissections and eating mess food in Srikakulam.
               </span>
             ) : (
               <span>
@@ -72,7 +72,7 @@ export default function Hero({ isHostelMode }) {
               }`}
             >
               <HeartPulse className="w-5 h-5 text-slate-950" />
-              <span>Meet The 9 Stalwarts</span>
+              <span>Meet The 10 Stalwarts</span>
             </a>
             <a
               href="#dialogues"
@@ -99,7 +99,7 @@ export default function Hero({ isHostelMode }) {
               <div className="text-xs text-slate-400 mt-1 uppercase tracking-wider font-bold">Inaugural Foundation</div>
             </div>
             <div className="p-4 rounded-3xl bg-slate-900/80 border border-white/5 backdrop-blur-sm text-center shadow-lg">
-              <div className="text-3xl sm:text-4xl font-black text-teal-400 font-display">9</div>
+              <div className="text-3xl sm:text-4xl font-black text-teal-400 font-display">10</div>
               <div className="text-xs text-slate-400 mt-1 uppercase tracking-wider font-bold">Stalwarts Brothers</div>
             </div>
             <div className="p-4 rounded-3xl bg-slate-900/80 border border-white/5 backdrop-blur-sm text-center shadow-lg">
@@ -127,10 +127,10 @@ export default function Hero({ isHostelMode }) {
             <div className="absolute bottom-6 left-6 right-6 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
               <div>
                 <span className="px-3 py-1 rounded-full text-xs font-bold bg-amber-400 text-slate-950 uppercase tracking-wider">
-                  The Complete 9 Stalwarts Brotherhood
+                  The Complete Stalwarts Brotherhood
                 </span>
                 <h3 className="text-xl sm:text-3xl font-black text-white font-display mt-2">
-                  All 9 Stalwarts at the High Table
+                  The Stalwarts Brotherhood at the High Table
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-300 max-w-xl">
                   Reunited 16 years after entering RIMS Srikakulam — Surgeons, Intensivists, Radiologists, Physicians & Orthopedicians together.
