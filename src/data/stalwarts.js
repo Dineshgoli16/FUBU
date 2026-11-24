@@ -303,19 +303,21 @@ export const STALWARTS = [
       ring: "ring-purple-400",
     },
     clinicalSummary:
-      "DM Critical Care super-specialist on the cutting edge of modern critical medicine. Safeguarding the critically ill at Medicover Vizag and now stepping up to GITAM Medical College to shape medical postgraduates and ICU care.",
+      "DM Critical Care super-specialist on the cutting edge of modern critical medicine and advanced life support. Pictured standing beside the memorial bust of Dr. Robert Hawes Bartlett (1939–2025, University of Michigan) — revered worldwide as the 'Father of ECMO' for pioneering Extracorporeal Membrane Oxygenation. Timmu safeguards the critically ill at Medicover Vizag and is stepping up to GITAM Medical College to advance ECMO protocols, resuscitation science, and train medical postgraduates.",
+    ecmoHighlight:
+      "Dr. Trimurthulu is pictured alongside the bronze memorial bust of Dr. Robert Hawes Bartlett (1939–2025, University of Michigan), internationally celebrated as the 'Father of ECMO' for inventing and clinicalizing Extracorporeal Membrane Oxygenation, saving millions of catastrophic respiratory and cardiac failure patients worldwide.",
     hostelSummary:
       "When monitors are beeping like crazy and arterial pressures crash, Timmu is calmer than an ancient rishi. In the hostel, he's the warm-hearted 'Timmu' with sandalwood on his forehead, radiating positivity and brotherhood everywhere.",
-    superpower: "Sub-Second Intubation & Calm in the Midst of ICU Storms",
+    superpower: "ECMO Protocols, Sub-Second Intubation & Calm in the Midst of ICU Storms",
     hostelBadge: "Zen Master Timmu 🧘",
-    clinicalBadge: "DM Critical Care Super-Spec ⚡",
+    clinicalBadge: "DM Critical Care & ECMO Ace 🫁",
     quote: "The ICU is where science meets courage. Keep the airway secured, the pulse steady, and never lose hope.",
     dialogue: "Ventilator beeps entha gattiga unna... Timmu unte tension vaddu!",
     dialogueEnglish: "No matter how loud the ventilator alarms, when Timmu is there, zero tension!",
     statsClinical: [
-      { label: "Critical Care Resuscitation", value: 99 },
+      { label: "ECMO & Critical Resuscitation", value: 99 },
       { label: "Arterial Lines & Intubation", value: 98 },
-      { label: "Hemodynamic Control", value: 97 },
+      { label: "Hemodynamic Stabilization", value: 97 },
       { label: "ICU Crisis Calmness", value: 100 }
     ],
     statsHostel: [
@@ -324,7 +326,7 @@ export const STALWARTS = [
       { label: "Biryani Appreciation", value: 96 },
       { label: "Friendship Reliability", value: 100 }
     ],
-    tags: ["DM Critical Care", "Medicover", "GITAM", "ICU Specialist"]
+    tags: ["DM Critical Care", "ECMO Specialist", "Medicover", "GITAM", "ICU Specialist", "Bartlett Legacy"]
   },
   {
     id: "aravind",

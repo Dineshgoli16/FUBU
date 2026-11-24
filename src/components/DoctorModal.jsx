@@ -137,6 +137,24 @@ export default function DoctorModal({ doctor, isHostelMode, onClose }) {
                 </p>
               </div>
 
+              {/* Special Tribute Highlight for ECMO */}
+              {doctor.ecmoHighlight && (
+                <div className="bg-gradient-to-r from-purple-950/60 to-indigo-950/40 border border-purple-500/40 rounded-2xl p-4 sm:p-5 flex items-start gap-4 shadow-lg shadow-purple-950/30">
+                  <span className="text-3xl shrink-0 p-2.5 rounded-xl bg-purple-500/20 border border-purple-400/30">🫁</span>
+                  <div>
+                    <span className="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider bg-purple-500/30 text-purple-200 border border-purple-400/40 mb-1.5">
+                      Historical Clinical Milestone
+                    </span>
+                    <h5 className="text-sm sm:text-base font-bold text-white">
+                      Pictured with Dr. Robert Hawes Bartlett — Father of ECMO
+                    </h5>
+                    <p className="text-xs sm:text-sm text-slate-300 mt-1 leading-relaxed">
+                      {doctor.ecmoHighlight}
+                    </p>
+                  </div>
+                </div>
+              )}
+
               {/* Clinical Stat Meters */}
               <div>
                 <h4 className="text-xs font-bold text-teal-400 uppercase tracking-wider mb-3">
