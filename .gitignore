@@ -8,7 +8,7 @@ dist/
 dist-ssr/
 
 # Temporary photo drop folder (active photos are in public/photos/)
-photos/
+/photos/
 
 # Logs
 *.log
