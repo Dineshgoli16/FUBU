@@ -577,14 +577,6 @@ export const VAULT_PHOTOS = [
     description: "Dr. Trimurthulu representing Critical Care at ECMO India beside the memorial bust of Dr. Robert Hawes Bartlett (father of ECMO)."
   },
   {
-    src: "./photos/doctors/satya2.jpeg",
-    title: "Satya's Sub-Surface X-Ray Vision",
-    category: "Hostel Banter",
-    year: "2024",
-    tilt: "2.2deg",
-    description: "Radiologist Satya diving deep with crystal clarity and zero motion artifacts under water!"
-  },
-  {
     src: "./photos/reunions/wedding_suits_stalwarts.jpg",
     title: "The Wedding Suits Gala — Dressed to Kill",
     category: "Reunion",
