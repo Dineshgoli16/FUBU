@@ -291,7 +291,7 @@ export const STALWARTS = [
     hospital: "Medicover Hospital Vizag ➔ GITAM Medical College",
     location: "Visakhapatnam, AP",
     avatar: "./photos/doctors/timmu.jpeg",
-    avatarPosition: "center 22%",
+    avatarPosition: "68% 18%",
     funAvatar: "./photos/reunions/two_friends_garden.jpg",
     theme: {
       color: "purple",
@@ -373,7 +373,7 @@ export const STALWARTS = [
   },
   {
     id: "amarnath",
-    name: "Dr. Amarnath",
+    name: "Dr. Amarnadh",
     nickname: "Amar",
     roleClinical: "Orthopedic Surgeon (Indian Railways)",
     roleHostel: "The Railway Traumatologist & Interstate Bone Fixer",
@@ -529,7 +529,7 @@ export const HOSTEL_DIALOGUES = [
     icon: "❤️"
   },
   {
-    doctor: "Dr. Amarnath",
+    doctor: "Dr. Amarnadh",
     nickname: "Amar",
     telugu: "Srikakulam beach nunchi Jabalpur Railway Hospital varaku... journey super mowa!",
     english: "From Srikakulam beach to Jabalpur Railway Hospital... what a journey, brother!",
@@ -565,6 +565,14 @@ export const VAULT_PHOTOS = [
     year: "2024",
     tilt: "-2deg",
     description: "Dr. Dinesh and the stalwarts visiting Chandanna outside Sri Sowjanya Hospitals. Celebrating partner healthcare leadership!"
+  },
+  {
+    src: "./photos/reunions/timmu_ecmo_conference.jpg",
+    title: "ECMO India Summit — Dr. Trimurthulu",
+    category: "Conferences",
+    year: "2024",
+    tilt: "-1.5deg",
+    description: "Dr. Trimurthulu representing Critical Care at ECMO India beside the memorial bust of Dr. Robert Hawes Bartlett (father of ECMO)."
   },
   {
     src: "./photos/doctors/satya2.jpeg",
@@ -808,8 +816,8 @@ export const ODYSSEY_NODES = [
     name: "Jabalpur (Madhya Pradesh)",
     coords: { x: 42, y: 15 },
     role: "Interstate Railway Mission",
-    description: "West Central Railway Hospital, staffed by Orthopedic Specialist Dr. Amarnath.",
-    doctors: "Dr. Amarnath"
+    description: "West Central Railway Hospital, staffed by Orthopedic Specialist Dr. Amarnadh.",
+    doctors: "Dr. Amarnadh"
   },
   {
     name: "Andhra Pradesh PHC Grid",
@@ -831,7 +839,7 @@ export const QUIZ_QUESTIONS = [
   {
     id: 2,
     question: "Who will spot a 3mm thyroid nodule and remove it without leaving a single mark on the neck?",
-    options: ["Dr. Dinesh (Potti)", "Dr. Satya", "Dr. Seshu", "Dr. Amarnath"],
+    options: ["Dr. Dinesh (Potti)", "Dr. Satya", "Dr. Seshu", "Dr. Amarnadh"],
     correctIndex: 0,
     funFact: "Dr. Dinesh is an MCh Endocrine Surgeon specializing in scarless transoral thyroid surgery (TOETVA)!"
   },
@@ -859,7 +867,7 @@ export const QUIZ_QUESTIONS = [
   {
     id: 6,
     question: "Who is fixing fractured bones for locomotive drivers and railway passengers all the way in Jabalpur?",
-    options: ["Dr. Amarnath (Amar)", "Dr. Raviteja", "Dr. Dinesh", "Dr. Timmu"],
+    options: ["Dr. Amarnadh (Amar)", "Dr. Raviteja", "Dr. Dinesh", "Dr. Timmu"],
     correctIndex: 0,
     funFact: "Dr. Amar is an Orthopedic Surgeon with the Indian Railways (West Central Railway) stationed in Jabalpur, MP!"
   },
