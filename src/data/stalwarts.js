@@ -157,7 +157,7 @@ export const STALWARTS = [
     location: "Visakhapatnam, AP",
     avatar: "./photos/doctors/seshu.jpeg",
     avatarPosition: "center 20%",
-    funAvatar: "./photos/reunions/towel_laugh_fun.jpg",
+    funAvatar: "./photos/reunions/reunion_dinner_full_gang.jpg",
     theme: {
       color: "orange",
       primaryText: "text-orange-400",
@@ -202,7 +202,8 @@ export const STALWARTS = [
     location: "Vizianagaram, AP",
     avatar: "./photos/doctors/satya.jpeg",
     avatarPosition: "center 25%",
-    funAvatar: "./photos/reunions/towel_laugh_fun.jpg",
+    funAvatar: "./photos/doctors/satya2.jpeg",
+    funAvatarPosition: "center 30%",
     theme: {
       color: "cyan",
       primaryText: "text-cyan-400",
@@ -215,7 +216,7 @@ export const STALWARTS = [
     clinicalSummary:
       "Founder and Chief Radiologist at Citi Scans & Diagnostics in Vizianagaram. The diagnostic backbone for thousands of clinicians across the district, deciphering CT, MRI, ultrasound, and Doppler with millimeter accuracy.",
     hostelSummary:
-      "You can't hide anything from Satya — both inside the body and in the hostel! Always sharp, stylish, rocking the microphone at batch reunions, and holding the towel-pulling laughing record with unmatched glee.",
+      "You can't hide anything from Satya — both inside the body and in the hostel! Always sharp, stylish, rocking the microphone at batch reunions, diving underwater with sub-surface x-ray vision, and bringing unmatched banter to the gang.",
     superpower: "Supersonic Cross-Sectional Vision & Clinical Diagnosis",
     hostelBadge: "Microphone Commander 🎙️",
     clinicalBadge: "Citi Scans Director 🔬",
@@ -231,7 +232,7 @@ export const STALWARTS = [
     statsHostel: [
       { label: "Reunion Stage Presence", value: 98 },
       { label: "Mischief Orchestration", value: 96 },
-      { label: "Towel Pulling Skill", value: 100 },
+      { label: "Sub-Surface Vision", value: 99 },
       { label: "Business Sense", value: 97 }
     ],
     tags: ["Citi Scans", "Vizianagaram", "Radiologist", "Imaging Expert"]
@@ -493,10 +494,10 @@ export const HOSTEL_DIALOGUES = [
   {
     doctor: "Dr. Satyendra",
     nickname: "Satya",
-    telugu: "Reunion lo towel lagakapothe adi batch meet ela avtundi mowa?!",
-    english: "If someone doesn't pull a towel at the reunion, how can it even be called a batch meet?!",
-    tag: "Towel Gate Lore",
-    icon: "🤣"
+    telugu: "Citi Scans lo 0.5mm slice tho chustam... batch meet lo evaru daagina dorikipotaru!",
+    english: "In Citi Scans we view with 0.5mm slice thickness... anyone hiding at the batch meet will be spotted immediately!",
+    tag: "X-Ray Vision Lore",
+    icon: "🔬"
   },
   {
     doctor: "Dr. Seshagiri",
@@ -553,7 +554,7 @@ export const WHEEL_PROMPTS = [
   "Who must do a dance step right now? 🕺",
   "Who will give a 10-minute lecture on health? 🩺",
   "Who is most likely to answer a late-night phone call? 📞",
-  "Who pulled the towel at the reunion? 🤣",
+  "Who is the biggest prankster at the reunion? 🤣",
   "Who had the highest attendance in college? 🎓",
   "Who had the lowest attendance in 8 AM Anatomy? 😴",
   "Who will sponsor the next batch reunion party? 🍾"
@@ -575,6 +576,14 @@ export const VAULT_PHOTOS = [
     year: "2024",
     tilt: "-1.5deg",
     description: "Dr. Trimurthulu representing Critical Care at ECMO India beside the memorial bust of Dr. Robert Hawes Bartlett (father of ECMO)."
+  },
+  {
+    src: "./photos/doctors/satya2.jpeg",
+    title: "Satya's Sub-Surface X-Ray Vision",
+    category: "Hostel Banter",
+    year: "2024",
+    tilt: "2.2deg",
+    description: "Radiologist Satya diving deep with crystal clarity and zero motion artifacts under water!"
   },
   {
     src: "./photos/reunions/wedding_suits_stalwarts.jpg",
@@ -679,14 +688,6 @@ export const VAULT_PHOTOS = [
     year: "2024",
     tilt: "-2deg",
     description: "The complete brotherhood around the dinner table, recounting 16 years of memories, food, and endless banter."
-  },
-  {
-    src: "./photos/reunions/towel_laugh_fun.jpg",
-    title: "The Epic Towel Pull Incident",
-    category: "Hostel Banter",
-    year: "Classic",
-    tilt: "2.5deg",
-    description: "Satya in a sharp blue suit pulling the towel while Seshu collapses in pure, uncontrollable laughter. True hostel madness!"
   },
   {
     src: "./photos/reunions/reunion_cheers_toast.jpg",
