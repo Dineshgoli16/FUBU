@@ -26,38 +26,65 @@ export default function DoctorModal({ doctor, isHostelMode, onClose }) {
           <X className="w-5 h-5" />
         </button>
 
-        {/* Modal Header Banner */}
-        <div className="relative h-64 sm:h-72 w-full overflow-hidden bg-slate-800 rounded-t-3xl">
-          <img 
-            src={activeTab === 'hostel' ? doctor.funAvatar : doctor.avatar} 
-            alt={doctor.name}
-            className="w-full h-full object-cover object-top"
-            onError={(e) => {
-              e.target.src = doctor.funAvatar || "./photos/reunions/reunion_dinner_full_gang.jpg";
-            }}
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-transparent" />
+        {/* Modal Header Banner with Dedicated Executive Portrait Box */}
+        <div className="relative min-h-[260px] sm:min-h-[280px] w-full overflow-hidden bg-slate-950 rounded-t-3xl p-6 sm:p-8 flex items-end">
+          {/* Atmospheric Blurred Background */}
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img 
+              src={activeTab === 'hostel' ? doctor.funAvatar : doctor.avatar} 
+              alt=""
+              className="w-full h-full object-cover blur-2xl opacity-30 scale-110"
+              style={{ objectPosition: (activeTab === 'clinical' && doctor.avatarPosition) || 'center 25%' }}
+              onError={(e) => {
+                e.target.src = "./photos/reunions/reunion_dinner_full_gang.jpg";
+              }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/80 to-slate-950/60" />
+          </div>
 
-          {/* Header Info Overlay */}
-          <div className="absolute bottom-6 left-6 right-6">
-            <div className="flex flex-wrap items-center gap-2 mb-2">
-              <span className="px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40 font-fun text-base">
-                Nickname: "{doctor.nickname}"
-              </span>
-              <span className="px-3 py-1 rounded-full text-xs font-bold bg-teal-500/20 text-teal-300 border border-teal-500/40">
-                {doctor.qualifications}
-              </span>
+          {/* Foreground Dossier Profile Box & Identity */}
+          <div className="relative z-10 w-full flex flex-col sm:flex-row items-start sm:items-center gap-5 sm:gap-7">
+            {/* Dedicated Doctor Portrait Frame with custom objectPosition */}
+            <div className="relative w-28 h-28 sm:w-36 sm:h-36 rounded-2xl overflow-hidden border-2 border-white/20 shadow-2xl shrink-0 bg-slate-800 ring-4 ring-black/40">
+              <img 
+                src={activeTab === 'hostel' ? doctor.funAvatar : doctor.avatar} 
+                alt={doctor.name}
+                className="w-full h-full object-cover"
+                style={{ objectPosition: (activeTab === 'clinical' && doctor.avatarPosition) || 'center 22%' }}
+                onError={(e) => {
+                  e.target.src = doctor.funAvatar || "./photos/reunions/reunion_dinner_full_gang.jpg";
+                }}
+              />
             </div>
-            <h2 className="text-2xl sm:text-4xl font-black font-display text-white">
-              {doctor.name}
-            </h2>
-            <p className="text-sm sm:text-base text-slate-300 mt-1 flex items-center gap-2">
-              <Building className="w-4 h-4 text-teal-400 shrink-0" />
-              <span>{doctor.hospital}</span>
-              <span>•</span>
-              <MapPin className="w-4 h-4 text-rose-400 shrink-0" />
-              <span>{doctor.location}</span>
-            </p>
+
+            {/* Header Info Overlay */}
+            <div className="min-w-0 flex-1">
+              <div className="flex flex-wrap items-center gap-2 mb-2">
+                <span className="px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40 font-fun text-base">
+                  Nickname: "{doctor.nickname}"
+                </span>
+                <span className="px-3 py-1 rounded-full text-xs font-bold bg-teal-500/20 text-teal-300 border border-teal-500/40">
+                  {doctor.qualifications}
+                </span>
+                <span className="px-3 py-1 rounded-full text-xs font-bold bg-rose-500/20 text-rose-300 border border-rose-500/40">
+                  {activeTab === 'hostel' ? doctor.hostelBadge : doctor.clinicalBadge}
+                </span>
+              </div>
+              <h2 className="text-2xl sm:text-4xl font-black font-display text-white">
+                {doctor.name}
+              </h2>
+              <p className="text-sm sm:text-base text-slate-300 mt-1 flex flex-wrap items-center gap-2">
+                <span className="flex items-center gap-1.5 text-teal-400">
+                  <Building className="w-4 h-4 shrink-0" />
+                  <span>{doctor.hospital}</span>
+                </span>
+                <span>•</span>
+                <span className="flex items-center gap-1.5 text-rose-400">
+                  <MapPin className="w-4 h-4 shrink-0" />
+                  <span>{doctor.location}</span>
+                </span>
+              </p>
+            </div>
           </div>
         </div>
 

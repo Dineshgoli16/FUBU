@@ -42,7 +42,8 @@ export default function DoctorCard({ doctor, isHostelMode, onSelectDoctor }) {
           <img 
             src={currentAvatar} 
             alt={doctor.name}
-            className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            style={{ objectPosition: (!photoToggle && doctor.avatarPosition) || 'center 22%' }}
             onError={(e) => {
               // Graceful fallback to table photo if individual photo is loading
               e.target.src = doctor.funAvatar || "./photos/reunions/reunion_dinner_full_gang.jpg";

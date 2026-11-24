@@ -104,7 +104,8 @@ export default function SpotlightShowcase({ isHostelMode, onSelectDoctor }) {
                       <img 
                         src={doc.avatar} 
                         alt={doc.name} 
-                        className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform"
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                        style={{ objectPosition: doc.avatarPosition || 'center 22%' }}
                         onError={(e) => { e.target.src = doc.funAvatar; }}
                       />
                       {isSelected && (
@@ -136,7 +137,8 @@ export default function SpotlightShowcase({ isHostelMode, onSelectDoctor }) {
                     <img 
                       src={showHostel ? activeDoc.funAvatar : activeDoc.avatar} 
                       alt={activeDoc.name}
-                      className="w-full h-full object-cover object-top transition-all duration-700 group-hover:scale-105"
+                      className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
+                      style={{ objectPosition: (!showHostel && activeDoc.avatarPosition) || 'center 22%' }}
                       onError={(e) => { e.target.src = activeDoc.funAvatar; }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent" />

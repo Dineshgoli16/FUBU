@@ -21,6 +21,7 @@ export const STALWARTS = [
     hospital: "Apollo Hospitals (Health City, Vizag) & VizagEndoSurgeon",
     location: "Visakhapatnam, AP",
     avatar: "./photos/doctors/dinesh_potti.jpeg",
+    avatarPosition: "center 20%",
     funAvatar: "./photos/reunions/dinesh_murali_acrsi_conf.jpg",
     theme: {
       color: "emerald",
@@ -65,6 +66,7 @@ export const STALWARTS = [
     hospital: "Managing Director, Sai Spurthi Multi Speciality Hospital",
     location: "Jangareddygudem, Eluru Dist, AP",
     avatar: "./photos/doctors/murali.jpeg",
+    avatarPosition: "center 25%",
     funAvatar: "./photos/reunions/dinesh_murali_acrsi_conf.jpg",
     theme: {
       color: "amber",
@@ -109,6 +111,7 @@ export const STALWARTS = [
     hospital: "Community Health Centre (CHC), Pendurthi",
     location: "Visakhapatnam, AP",
     avatar: "./photos/doctors/sandy.jpeg",
+    avatarPosition: "center 20%",
     funAvatar: "./photos/reunions/hostel_drinks_cheers.jpg",
     theme: {
       color: "rose",
@@ -153,6 +156,7 @@ export const STALWARTS = [
     hospital: "Andhra Medical College (AMC) / King George Hospital (KGH)",
     location: "Visakhapatnam, AP",
     avatar: "./photos/doctors/seshu.jpeg",
+    avatarPosition: "center 20%",
     funAvatar: "./photos/reunions/towel_laugh_fun.jpg",
     theme: {
       color: "orange",
@@ -197,6 +201,7 @@ export const STALWARTS = [
     hospital: "Founder & Director, Citi Scans & Diagnostics",
     location: "Vizianagaram, AP",
     avatar: "./photos/doctors/satya.jpeg",
+    avatarPosition: "center 25%",
     funAvatar: "./photos/reunions/towel_laugh_fun.jpg",
     theme: {
       color: "cyan",
@@ -241,6 +246,7 @@ export const STALWARTS = [
     hospital: "Dr. K.V. Rama Rao Hospital",
     location: "Vizianagaram, AP",
     avatar: "./photos/doctors/rt.jpeg",
+    avatarPosition: "center 20%",
     funAvatar: "./photos/reunions/college_bench_friends.jpg",
     theme: {
       color: "lime",
@@ -285,6 +291,7 @@ export const STALWARTS = [
     hospital: "Medicover Hospital Vizag ➔ GITAM Medical College",
     location: "Visakhapatnam, AP",
     avatar: "./photos/doctors/timmu.jpeg",
+    avatarPosition: "center 22%",
     funAvatar: "./photos/reunions/two_friends_garden.jpg",
     theme: {
       color: "purple",
@@ -329,6 +336,7 @@ export const STALWARTS = [
     hospital: "Primary Health Centre (PHC), Government of Andhra Pradesh",
     location: "Andhra Pradesh",
     avatar: "./photos/doctors/aru.jpeg",
+    avatarPosition: "center 20%",
     funAvatar: "./photos/reunions/cafe_hangout.jpg",
     theme: {
       color: "green",
@@ -373,6 +381,7 @@ export const STALWARTS = [
     hospital: "Railway Hospital, West Central Railway (WCR)",
     location: "Jabalpur, Madhya Pradesh",
     avatar: "./photos/doctors/amar.jpeg",
+    avatarPosition: "center 38%",
     funAvatar: "./photos/reunions/doctor_clinic_stethoscope.jpg",
     theme: {
       color: "yellow",
@@ -417,6 +426,7 @@ export const STALWARTS = [
     hospital: "Sri Sowjanya Hospitals (24/7 Emergency & Cardiac Care)",
     location: "Parvathipuram, Andhra Pradesh",
     avatar: "./photos/doctors/chandanna.jpeg",
+    avatarPosition: "center 25%",
     funAvatar: "./photos/reunions/chandanna_reunion_toast.jpg",
     theme: {
       color: "red",
